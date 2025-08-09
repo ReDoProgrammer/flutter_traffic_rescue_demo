@@ -1,16 +1,21 @@
-# traffic_rescue_demo
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+├─ main.dart
+├─ screens/
+│   ├─ user/
+│   │   ├─ user_home_screen.dart
+│   │   ├─ request_rescue_screen.dart
+│   ├─ rescue_service/
+│   │   ├─ rescue_dashboard_screen.dart
+│   │   ├─ rescue_request_detail.dart
+│   ├─ admin/
+│   │   ├─ admin_dashboard_screen.dart
+│   │   ├─ manage_users_screen.dart
+│   │   ├─ manage_services_screen.dart
+│   │   ├─ statistics_screen.dart
+├─ data/
+│   ├─ mock_requests.dart
+│   ├─ mock_users.dart
+│   ├─ mock_services.dart
+├─ widgets/
+│   ├─ request_card.dart
+│   ├─ service_card.dart
